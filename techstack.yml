@@ -1,0 +1,159 @@
+repo_name: Egaros/SharpGrabber
+report_id: 3e200d9541050e612b365739ad853a88
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:41:11+00:00'
+requested_by: javidsho
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/Egaros/SharpGrabber
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Egaros/SharpGrabber/blob/master/tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  detection_source: tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  last_updated_by: Javid Sh
+  last_updated_on: 2021-05-20 10:38:47.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '3.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/Egaros/SharpGrabber/blob/master/tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  detection_source: tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  last_updated_by: Javid Sh
+  last_updated_on: 2021-05-20 10:38:47.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/Egaros/SharpGrabber/blob/master/src/SharpGrabber.Adult/SharpGrabber.Adult.csproj
+  detection_source: tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  last_updated_by: Javid Sh
+  last_updated_on: 2021-05-20 10:38:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Egaros/SharpGrabber
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Egaros/SharpGrabber/blob/master/tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  detection_source: tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  last_updated_by: Javid Shoaei
+  last_updated_on: 2019-11-06 00:40:23.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/Egaros/SharpGrabber/blob/master/SharpGrabber.sln
+  detection_source: SharpGrabber.sln
+  last_updated_by: Javid Shoaei
+  last_updated_on: 2019-12-07 20:26:26.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/Egaros/SharpGrabber/blob/master/tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  detection_source: tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  last_updated_by: Javid Shoaei
+  last_updated_on: 2019-11-06 00:40:23.000000000 Z
+- name: Avalonia
+  description: Avalonia is a WPF/UWP-inspired cross-platform XAML-based UI framework
+    providing a flexible styling system and supporting a wide range of Operating Systems
+    such as Windows
+  package_url: https://www.nuget.org/Avalonia
+  version: 0.10.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13493/default_a5f7e489f1a0992baa6377c8f765ce325404bce2.png
+  detection_source_url: https://github.com/Egaros/SharpGrabber/blob/master/src/SharpGrabber.Desktop/SharpGrabber.Desktop.csproj
+  detection_source: src/SharpGrabber.Desktop/SharpGrabber.Desktop.csproj
+  last_updated_by: Javid Sh
+  last_updated_on: 2021-05-20 10:38:47.000000000 Z
+- name: Avalonia.Desktop
+  description: Avalonia is a WPF/UWP-inspired cross-platform XAML-based UI framework
+    providing a flexible styling system and supporting a wide range of Operating Systems
+    such as Windows
+  package_url: https://www.nuget.org/Avalonia.Desktop
+  version: 0.10.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14720/default_7f6d2c2d8bc459a222d9040213ab156a58e86e29.png
+  detection_source_url: https://github.com/Egaros/SharpGrabber/blob/master/src/SharpGrabber.Desktop/SharpGrabber.Desktop.csproj
+  detection_source: src/SharpGrabber.Desktop/SharpGrabber.Desktop.csproj
+  last_updated_by: Javid Sh
+  last_updated_on: 2021-05-20 10:38:47.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.3
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/Egaros/SharpGrabber/blob/master/tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  detection_source: tests/DotNetTools.SharpGrabber.Tests/SharpGrabber.Tests.csproj
+  last_updated_by: Javid Sh
+  last_updated_on: 2021-02-13 17:59:08.000000000 Z
